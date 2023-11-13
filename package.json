@@ -1,0 +1,20 @@
+{
+  "name": "org-public-repo",
+  "version": "1.0.0",
+  "author": "",
+  "copyright": "",
+  "scripts": {
+    "dev": "zup dev",
+    "test": "zup test"
+  },
+  "dependencies": {
+    "zuplo": "latest",
+    "@zuplo/runtime": "file:/Users/lcampos/dev/zuplo/core/packages/runtime"
+  },
+  "overrides": {
+    "@zuplo/core": "file:/Users/lcampos/dev/zuplo/core/packages/core",
+    "@zuplo/runtime": "file:/Users/lcampos/dev/zuplo/core/packages/runtime",
+    "@zuplo/debug": "file:/Users/lcampos/dev/zuplo/core/packages/debug",
+    "@zuplo/errors": "file:/Users/lcampos/dev/zuplo/core/packages/errors"
+  }
+}
